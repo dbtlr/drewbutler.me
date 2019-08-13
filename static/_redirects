@@ -1,0 +1,8 @@
+# Redirect domain aliases to primary domain
+https://dbtlr.com/* https://drewbutler.me/:splat 301!
+https://drewbutler.blog/* https://drewbutler.me/:splat 301!
+https://www.dbtlr.com/* https://drewbutler.me/:splat 301!
+https://www.drewbutler.blog/* https://drewbutler.me/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://dbtlr-com.netlify.com/* https://drewbutler.me/:splat 301!
